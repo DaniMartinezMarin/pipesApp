@@ -9,6 +9,8 @@ import { BasicosComponent } from './pages/basicos/basicos.component';
 import { PersonalizadosComponent } from './pages/personalizados/personalizados.component';
 
 import { MayusculasPipe } from './pipes/mayusculas.pipe';
+import { OrdenarPipe } from './pipes/ordenar.pipe';
+import { VuelaPipe } from './pipes/vuela.pipe';
 
 
 
@@ -18,7 +20,9 @@ import { MayusculasPipe } from './pipes/mayusculas.pipe';
     NoComunesComponent,
     BasicosComponent,
     PersonalizadosComponent,
-    MayusculasPipe
+    MayusculasPipe,
+    OrdenarPipe,
+    VuelaPipe
   ],
   exports: [
     NumerosComponent,
